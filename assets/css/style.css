@@ -1,0 +1,40 @@
+
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Regular.ttf);
+  }
+
+
+
+body {
+    font-family: "Montserrat";
+    background-color: #040404;
+    color: #fff;
+    position: relative;
+    background: transparent;
+  }
+  
+
+
+
+  .rakandev {
+    font-family: 'Montserrat';
+  }
+
+
+  body::before {
+    content: "";
+    position: fixed;
+    background: #040404 url("../img/background.jpg") top right no-repeat;
+    background-size:cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    z-index: -1;
+  }
+  
